@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+.header-link li 
+{
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.header-link li{
+    display: inline-block;
+}
+
+.header-link li a {
+    text-decoration: none;
+    color: #5F88A3;
+    font-weight:500;
+}
+
+.header-link li a:hover{
+    color: #127fc7;
+}
+
+.banner{
+    background-color: #085f99;
+    position: fixed;
+    
+}
+
+.bn-left{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 140px;
+    margin-left: 100px;
+    overflow-y: hidden;
+
+}
+
+.bn-left h2{
+    color: white;
+    font-size: 36px;
+}
+
+.bn-left p{
+    font-size: 18px;
+    color: #62bffd;
+}
+
+.btton-left{
+    width:400px;
+    height: 55px;
+    background-color: rgb(46, 246, 46);
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* AFTER PANNEL  */
+
+.hom-pannel{
+    margin-top: 14px;
+    background-color: lightgray;
+}
+
+.hom-pannel p{
+    margin-left: 10px;
+}
+
+/* offer pannel */
+
+
+.offer-pannel h2{
+    color: #2f5975;
+}
+
+/* explore */
+
+.ex-box1{
+    margin: auto;
+    margin-left: 70px;
+}
+.ex-box{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+.ex-box img{
+    margin-top: 16%;
+    /* margin-left: 40%; */
+}
+
+.ex-box h5{
+    text-align: center;
+    margin: 10px;
+}
+
+.last-btn{
+    padding: 10px;
+    color: red;
+    border-top: 1px dotted black;
+
+}
+
+/* paly store pannel  */
+
+.paly-store img{
+    margin-left: 10%;
+}
+
+.play-add{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.play-add h2{
+    color: #2f5975;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.play-add p{
+    font-size: 20px;
+}
+
+.play-add img{
+}
+
+/* text contant start */
+
+.main-contant h2{
+    color: #2f5975;
+    font-weight: bold;
+}
+
+/* all menu section */
+
+.all-menu button{
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:  0px 4px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* footer */
+
+.footer-main{
+    background-color: #222E3A;
+}
+
+.menup{
+    color: #546373;
+    font-size:17px;
+}
+
+.menulinks{
+    color: white;
+    font-size:17px;
+}
+
+.menuicon i{
+
+    padding: 8px;
+    color: #546373;
+}
+
+.footer-copyright{
+    background-color:  #0a2c42;
+    padding-inline-start: 20px;
+    text-align: center; 
+}
+
+.footer-copyright p{
+    padding: 10px;
+}
